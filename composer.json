@@ -1,0 +1,23 @@
+{
+    "name": "korotovsky/composer-yii-module",
+    "description": "test composer yii module for bugreport",
+    "minimum-stability": "dev",
+    "type": "library",
+    "license": "BSD 3",
+    "authors": [
+        {
+            "name": "Dmitry Korotovsky",
+            "email": "dmitry@korotovsky.io",
+            "homepage": "http://korotovsky.io"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.9",
+        "yiisoft/yii":"dev-master",
+    },
+    "autoload": {
+        "psr-0": {
+            "korotovsky": "src"
+        }
+    }
+}
