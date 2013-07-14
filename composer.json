@@ -13,7 +13,7 @@
     ],
     "require": {
         "php": ">=5.4.9",
-        "yiisoft/yii":"dev-master",
+        "yiisoft/yii":"dev-master"
     },
     "autoload": {
         "psr-0": {
